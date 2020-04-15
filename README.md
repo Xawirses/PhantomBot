@@ -3,13 +3,25 @@
 [![](https://images.microbadger.com/badges/version/xawirses/phantombot.svg)](https://microbadger.com/images/xawirses/phantombot "Get your own version badge on microbadger.com")
 
 ## Supported tags and respective Dockerfile links
-- 3.0.0, latest
+- [3.0.0, latest (3.0.0/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/master/3.0.0/Dockerfile)
 
 ## How to use this image
-### Docker CMD
+### Setup Process
+if you have already the configuration, ignore this step
 ```
 sudo mkdir -p /opt/phantombot/{config,dbbackup,logs}
 
+sudo docker run -it \
+  -p 6667:6667 \
+  -p 25001-25005:25001-25005 \
+  -v /opt/phantombot/config:/phantombot/config \
+  -v /opt/phantombot/dbbackup:/phantombot/dbbackup \
+  -v /opt/phantombot/logs:/phantombot/logs \
+  --name phantombot \
+  xawirses/phantombot:$version
+```
+### Docker CMD
+```
 sudo docker run -d \
   -p 6667:6667 \
   -p 25001-25005:25001-25005 \
@@ -41,3 +53,4 @@ phantombot:
 * /phantombot/config
 * /phantombot/dbbackup
 * /phantombot/logs
+
