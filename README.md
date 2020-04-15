@@ -3,7 +3,8 @@
 [![](https://images.microbadger.com/badges/version/xawirses/phantombot.svg)](https://microbadger.com/images/xawirses/phantombot "Get your own version badge on microbadger.com")
 
 ## Supported tags and respective Dockerfile links
-- [3.0.0, latest (3.0.0/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/master/3.0.0/Dockerfile)
+- 3.1.2, stable, latest [(3.0.0/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/master/3.0.0/Dockerfile)
+- 3.0.0 [(3.0.0/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/master/3.0.0/Dockerfile)
 
 ## How to use this image
 ### Setup Process
@@ -18,7 +19,7 @@ sudo docker run -it \
   -v /opt/phantombot/dbbackup:/phantombot/dbbackup \
   -v /opt/phantombot/logs:/phantombot/logs \
   --name phantombot \
-  xawirses/phantombot:$version
+  xawirses/phantombot:stable
 ```
 ### Docker CMD
 ```
@@ -30,12 +31,12 @@ sudo docker run -d \
   -v /opt/phantombot/logs:/phantombot/logs \
   --name phantombot \
   --restart=always \
-  xawirses/phantombot:$version
+  xawirses/phantombot:stable
 ```
 ### Docker-compose
 ```
 phantombot:
-  image: "xawirses/phantombot:$version"
+  image: "xawirses/phantombot:stable"
   restart: always
   ports:
     - "6667:6667"
