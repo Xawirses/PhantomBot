@@ -3,7 +3,8 @@
 [![](https://images.microbadger.com/badges/version/xawirses/phantombot.svg)](https://microbadger.com/images/xawirses/phantombot "Get your own version badge on microbadger.com")
 
 ## Supported tags and respective Dockerfile links
-- 3.1.2, stable, latest [(3.1.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.1.2/Dockerfile)
+- 3.3.2, stable, latest [(3.3.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.3.2/Dockerfile)
+- 3.1.2, [(3.1.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.1.2/Dockerfile)
 - 3.0.0
 
 ## How to use this image
