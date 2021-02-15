@@ -3,12 +3,16 @@
 [![](https://images.microbadger.com/badges/version/xawirses/phantombot.svg)](https://microbadger.com/images/xawirses/phantombot "Get your own version badge on microbadger.com")
 
 ## Supported tags and respective Dockerfile links
-- 3.3.5, stable, latest [(3.3.5/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.3.5/Dockerfile)
+- 3.4.1, stable, latest [(3.4.1/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.4.1/Dockerfile)
+- 3.3.5, [(3.3.5/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.3.5/Dockerfile)
 - 3.3.2, [(3.3.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.3.2/Dockerfile)
 - 3.1.2, [(3.1.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.1.2/Dockerfile)
-- 3.0.0
 
 ## How to use this image
+
+To use this image, you need botlogin.txt and phantombot.db in the config folder.
+To get these files, launch a first start directly from your PC.
+
 ### Setup Process
 if you have already the configuration, ignore this step
 ```
