@@ -2,7 +2,7 @@ FROM java:8-jre
 MAINTAINER Xawirses <xawirses@gmail.com>
 LABEL maintainer="Xawirses <xawirses@gmail.com>"
 
-ENV PHANTOMBOT_VERSION 3.4.2
+ENV PHANTOMBOT_VERSION 3.4.7
 ENV PHANTOMBOT_ZIP PhantomBot-${PHANTOMBOT_VERSION}.zip
 ENV PHANTOMBOT_URL https://github.com/PhantomBot/PhantomBot/releases/download/v${PHANTOMBOT_VERSION}/${PHANTOMBOT_ZIP}
 
