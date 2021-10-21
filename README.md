@@ -4,11 +4,7 @@
 
 ## Supported tags and respective Dockerfile links
 - 3.4.7, stable, latest [(3.4.7/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.4.7/Dockerfile)
-- 3.4.2, [(3.4.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.4.2/Dockerfile)
-- 3.4.1, [(3.4.1/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.4.1/Dockerfile)
 - 3.3.5, [(3.3.5/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.3.5/Dockerfile)
-- 3.3.2, [(3.3.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.3.2/Dockerfile)
-- 3.1.2, [(3.1.2/Dockerfile)](https://github.com/Xawirses/PhantomBot/blob/3.1.2/Dockerfile)
 
 ## How to use this image
 
